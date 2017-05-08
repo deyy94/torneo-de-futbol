@@ -74,5 +74,6 @@ for ($i=0; $i <=$numberPlayers ; $i++) {
     }
 $mysqli->close();
 }
+  header('Location: /Players/');
 
  ?>

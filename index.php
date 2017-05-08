@@ -95,13 +95,13 @@ if (!empty($_GET['destroy'])) {
           $("#pN").val(numerador);
         });
         $( "#submit" ).click(function() {
-        /*  if(numerador < 11){
+          if(numerador < 11){
             alert("Su equipo no tiene los suficientes jugadores");
             return false;
           }
           else {
             return true;
-          }*/
+          }
         });
 });
 
